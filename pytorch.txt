@@ -1,0 +1,8 @@
+Pytorch
+
+PyTorch is an open-source machine learning library that is mainly used for building and training deep learning models.
+  
+Fundamentally, PyTorch offers two high-level functionalities:
+
+- Tensor computation (similar to NumPy) with strong acceleration support for Graphics Processing Units (GPUs).
+- Deep neural networks with a tape-based autograd system (automatic differentiation)
