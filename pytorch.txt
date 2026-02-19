@@ -17,4 +17,9 @@ Why it matters:
 
 It makes debugging much easier because you can use standard Python tools like pdb or simple print() statements. It also allows for flexible model architectures, such as neural networks that change shape depending on the input.
 
+Tensors: 
+
+The Building BlocksA Tensor is a multidimensional array, similar to a NumPy ndarray, but with a crucial difference: it can run on GPUs to accelerate mathematical operations by $10\times$ to $100\times$.Mathematical Representation: A 3D tensor can be thought of as a cube of numbers, often represented as
+
+$X \in \mathbb{R}^{n \times m \times p}$.
 
