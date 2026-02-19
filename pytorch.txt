@@ -6,3 +6,15 @@ Fundamentally, PyTorch offers two high-level functionalities:
 
 - Tensor computation (similar to NumPy) with strong acceleration support for Graphics Processing Units (GPUs).
 - Deep neural networks with a tape-based autograd system (automatic differentiation)
+
+Key Features of PyTorch
+
+- Dynamic Computation Graphs (Define-by-Run)
+
+This is PyTorch's "killer feature." Unlike frameworks that use static graphs (where you define the whole model before running data through it), PyTorch builds the graph on the fly as the code executes.
+
+Why it matters: 
+
+It makes debugging much easier because you can use standard Python tools like pdb or simple print() statements. It also allows for flexible model architectures, such as neural networks that change shape depending on the input.
+
+
