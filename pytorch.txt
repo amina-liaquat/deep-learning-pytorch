@@ -23,3 +23,10 @@ The Building BlocksA Tensor is a multidimensional array, similar to a NumPy ndar
 
 $X \in \mathbb{R}^{n \times m \times p}$.
 
+It is widely used for:
+
+- Neural Networks
+-Computer Vision
+-Natural Language Processing (NLP)
+-Research & Production models
+
