@@ -44,3 +44,12 @@ x = torch.rand(3, 4) print(x.shape)
 -   Reshaping → x.reshape()
 -   Concatenation → torch.cat()
 
+5.  Dealing with Tensor Shapes Shape mismatch is common in deep
+    learning.
+
+Matrix multiplication rule: 
+(m × n) @ (n × p) → (m × p)
+
+Always check .
+shape before operations.
+
