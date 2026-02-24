@@ -1,0 +1,46 @@
+INTRODUCTION TO TENSORS
+
+1.  Introduction to Tensors:
+A tensor is a multidimensional array. In  PyTorch, tensors are the fundamental data structure.
+
+Types: - 
+ 0D → Scalar (single number) 
+- 1D → Vector 
+- 2D → Matrix 
+- 3D+ → Higher-dimensional data (like images, batches)
+
+Example: 
+
+import torch x = torch.tensor([1, 2, 3]) print(x)
+
+2.  Creating Tensors 
+You can create tensors in many ways:
+
+torch.tensor([1, 2, 3]) 
+torch.zeros(3, 4) 
+torch.ones(2, 2) 
+torch.rand(3,3)
+
+Tensors can represent: 
+- Images → (batch, channels, height, width)
+-Text → token indices 
+- Tabular data → rows × columns
+
+3.  Getting Information from Tensors Important properties:
+
+x.shape # dimensions 
+x.dtype # data type 
+x.device # CPU or GPU
+
+Example: 
+
+x = torch.rand(3, 4) print(x.shape)
+
+4.  Manipulating Tensors Common operations:
+
+-   Addition → x + y
+-   Multiplication → x * y
+-   Matrix multiplication → torch.matmul(x, y)
+-   Reshaping → x.reshape()
+-   Concatenation → torch.cat()
+
