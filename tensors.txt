@@ -4,7 +4,7 @@ INTRODUCTION TO TENSORS
 A tensor is a multidimensional array. In  PyTorch, tensors are the fundamental data structure.
 
 Types: - 
- 0D → Scalar (single number) 
+- 0D → Scalar (single number) 
 - 1D → Vector 
 - 2D → Matrix 
 - 3D+ → Higher-dimensional data (like images, batches)
