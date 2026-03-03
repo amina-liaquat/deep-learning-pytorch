@@ -1,0 +1,4 @@
+NEURAL NETWORK
+
+Neural Network as a mathematical system inspired by the human brain. Just as your brain has interconnected neurons that fire signals to process information, 
+an artificial neural network has "nodes" (neurons) that process data to find patterns
