@@ -1,4 +1,14 @@
 NEURAL NETWORK
 
 Neural Network as a mathematical system inspired by the human brain. Just as your brain has interconnected neurons that fire signals to process information, 
-an artificial neural network has "nodes" (neurons) that process data to find patterns
+an artificial neural network has "nodes" (neurons) that process data to find patterns.
+
+LAYERS AND NEURONS
+
+A standard neural network is organized into three main types of layers:
+
+-Input Layer: This is where the raw data enters the system (e.g., the pixels of an image or the words in a sentence).
+
+-Hidden Layers: This is where the "thinking" happens. A network can have one or hundreds of these. They extract features—the first layer might find edges, the second   might find shapes, and the third might find eyes or ears.
+
+-Output Layer: This provides the final answer or prediction.
