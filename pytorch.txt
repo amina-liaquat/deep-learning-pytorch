@@ -9,7 +9,7 @@ Fundamentally, PyTorch offers two high-level functionalities:
 
 Key Features of PyTorch
 
-- Dynamic Computation Graphs (Define-by-Run)
+- Dynamic Computation Graphs
 
 This is PyTorch's "killer feature." Unlike frameworks that use static graphs (where you define the whole model before running data through it), PyTorch builds the graph on the fly as the code executes.
 
