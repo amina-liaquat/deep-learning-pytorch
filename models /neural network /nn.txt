@@ -21,4 +21,5 @@ Not all neural networks are built the same way. Depending on the data, we use di
 
 - RNNs (Recurrent Neural Networks): Designed for sequences (like time-series data or text).
 
-- Transformers: The "new king" of neural networks. They power ChatGPT and most modern AI by processing entire sequences of data all at once rather than one word at a time.
+- Transformers: The "new king" of neural networks. They power ChatGPT and most modern AI by processing entire
+  sequences of data all at once rather than one word at a time.
