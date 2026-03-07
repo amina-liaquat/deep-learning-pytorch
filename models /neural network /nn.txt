@@ -12,3 +12,13 @@ A standard neural network is organized into three main types of layers:
 -Hidden Layers: This is where the "thinking" happens. A network can have one or hundreds of these. They extract features—the first layer might find edges, the second   might find shapes, and the third might find eyes or ears.
 
 -Output Layer: This provides the final answer or prediction.
+
+Different Types for Different Tasks
+
+Not all neural networks are built the same way. Depending on the data, we use different "architectures":
+
+- CNNs (Convolutional Neural Networks): Specially designed for images. They are great at recognizing spatial patterns.
+
+- RNNs (Recurrent Neural Networks): Designed for sequences (like time-series data or text).
+
+- Transformers: The "new king" of neural networks. They power ChatGPT and most modern AI by processing entire sequences of data all at once rather than one word at a time.
